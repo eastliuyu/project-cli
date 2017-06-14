@@ -1,0 +1,15 @@
+{
+  "presets": [
+    // webpack 现在已经支持原生的 import 语句了, 并且将其运用在 tree-shaking 特性上
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-runtime"
+  ],
+  "comments": false
+}

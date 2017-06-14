@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    transform: translateX(1px);
+}
+
+h1 {
+    color: #9999FF;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.icon {
+    height: 128px;
+    margin: 0 auto;
+    display: block;
+    width: 445px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/webpack.png');
+}
